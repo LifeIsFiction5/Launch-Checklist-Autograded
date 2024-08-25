@@ -26,7 +26,7 @@ list.style.visibility = "hidden";
             chosenPlanet.moons,
             chosenPlanet.image,
             );
-    })
+    });
 
     launchForm.addEventListener("submit", function (event){ 
         event.preventDefault();
@@ -37,12 +37,8 @@ list.style.visibility = "hidden";
         const cargoMass = document.querySelector("input[name=cargoMass]").value;
         
         formSubmission(document, list, pilotName, copilotName, fuelLevel, cargoMass);
-    })
+    });
     
 
 
  });
-
- //There will be a function to addEventListener to the submitForm().  This is where I will have pilot name, copilot name, etc.
-
- //call formSumbission in script.js with the values from the form
